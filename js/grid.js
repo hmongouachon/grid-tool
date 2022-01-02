@@ -1,7 +1,7 @@
 const grid = {
-	init: function(settings) {
-		grid.build_container(settings);
-		grid.key_event();
+    init: function(settings) {
+	grid.build_container(settings);
+	grid.key_event();
     },
     build_container:function(settings){
     	if(document.querySelectorAll('t-grid')[0]) return;
