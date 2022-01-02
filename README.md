@@ -6,11 +6,17 @@ Small useful tool that allows you to integrate a predefined or generated grid in
 
 ## Tool installation
 
-- include grid.js
+- include grid.js or minified version 
 
 ```
 <script src="js/grid.js"></script>
+
 ```
+```
+<script src="js/grid.min.js"></script>
+```
+
+
 - init plugin : check example in demo index
 
 ```
@@ -78,7 +84,7 @@ Note : When you generate a new random or classic grid, just check the console if
 ```
 
 ## Codepen demo
-* Grid tool : [https://codepen.io/hmongouachon/pen/zbraLG]
+* Grid tool : [https://codepen.io/hmongouachon/pen/abLYMPW]
 
 
 
