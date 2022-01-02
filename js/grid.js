@@ -30,7 +30,6 @@ const grid = {
         code_container.style.overflowY = "scroll";
         code_container.style.fontFamily = 'SFMono-Regular,Menlo,Monaco,Consolas,monospace';
         code_container.style.fontSize = '14px';
-        code_container.style.pointerEvents = "none";
         code_container.style.backgroundColor = 'white';
         code_container.style.color = '#464646';
         code_container.style.border = '1px solid #dddddd';
