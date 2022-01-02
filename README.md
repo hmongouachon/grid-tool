@@ -6,14 +6,11 @@ Small tool that allows you to integrate a predefined or generated grid into your
 
 ## Tool installation
 
-- include grid.js or minified version 
+- include grid.js
 
 ```
 <script src="js/grid.js"></script>
 
-```
-```
-<script src="js/grid.min.js"></script>
 ```
 
 
