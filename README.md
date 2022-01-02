@@ -80,7 +80,9 @@ Value use when generated random grid. Each grid position will be a multiple of t
 Used to generate a grid based on predefined values : [ [leftPosition, width], [leftPosition, width], ...]
 Ex : [ [2%, 10%], [13%, 20%], ...] 
 
-Note : When you generate a new random or classic grid, just check the console if you want to grab and copy position and width data. Then just pass the new array to predefined array.
+NB : When you generate a new random or classic grid :
+Check the console and copy grid data. 
+Then just pass the new array to predefined array.
 ```
 
 ## Codepen demo
