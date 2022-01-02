@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Grid tool</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+            *,
+            *:after,
+            *:before {
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            }
+            body,
+            html {
+            position: relative;
+            width: 100%;
+            margin: 0;
+            }
+        </style>
+    </body>
+    <script src="js/grid.js"></script>
+    <script>
+
+        //  const predefined_grid = [
+    	// 	['11.11111111111111%','10.61111111111111%'],
+    	// 	['22.22222222222222%','10.611111111111107%'],
+    	// 	['33.33333333333333%','10.611111111111114%'],
+    	// 	['44.44444444444444%','10.611111111111114%'],
+    	// 	['55.55555555555556%','10.6111111111111%'],
+    	// 	['66.66666666666666%','10.611111111111114%'],
+    	// 	['77.77777777777777%','10.611111111111114%'],
+    	// 	['88.88888888888889%','10.611111111111114%']
+    	// ]
+
+    	const predefined_grid = [];
+		const options = {
+			"unit" : '%', // % px
+			"width" : "100%",
+			"columns" : 12,
+			"gutter" : 1, // based on unit
+			"random" : false,
+			"divider" : 1, // if random = true : random division by multiple
+			"predefined" : predefined_grid,
+		}
+		grid.init(options);
+		// press g to view grid
+		// press c to viex code
+    </script>
+</html>
+
