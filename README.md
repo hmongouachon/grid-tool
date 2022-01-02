@@ -1,7 +1,7 @@
 
 # Grid tool
 
-Small useful tool that allows you to integrate a predefined or generated grid into your front-end development environment.
+Small tool that allows you to integrate a predefined or generated grid into your front-end development environment.
 
 
 ## Tool installation
